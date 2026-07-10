@@ -1,0 +1,13 @@
+{
+  "professor": "Yu Su",
+  "university": "Ohio State University",
+  "program": "CSE PhD",
+  "research_area": "NLP, language agents, knowledge bases, foundation models",
+  "representative_paper": "Mind2Web: Towards a Generalist Agent for the Web; 2023; NeurIPS",
+  "paper_link": "https://scholar.google.com/scholar?q=Mind2Web%3A+Towards+a+Generalist+Agent+for+the+Web",
+  "project_family": "language",
+  "focus": "NLP",
+  "value_add_artifact": "citation-faithful RAG and claim-level evaluation harness",
+  "next_step": "Replace seed claims with recent lab papers; add 50-100 expert-reviewable questions.",
+  "generated_for": "professor outreach value-add starter"
+}
