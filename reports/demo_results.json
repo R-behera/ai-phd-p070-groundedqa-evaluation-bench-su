@@ -13,6 +13,46 @@
   "next_step": "Replace seed claims with recent lab papers; add 50-100 expert-reviewable questions.",
   "professor": "Yu Su",
   "project_family": "language",
+  "proposed_method": {
+    "algorithm_id": "P070-Su-Nlp",
+    "algorithm_name": "SuCounterfactualNlpCalibrateMatrix",
+    "core_mechanism": "prioritizes unsupported claims and citation mismatches for advisor-domain literature audits",
+    "decision_rule": "Rank seed cases by language-specific priority score with Su-aligned focus term 'NLP'.",
+    "mean_priority_score": 0.2519,
+    "project_family": "language",
+    "top_cases": [
+      {
+        "action": "audit unsupported/citation-mismatched claim",
+        "case_id": "L4",
+        "priority_score": 0.49,
+        "signals": {
+          "citation_risk": 0.0,
+          "focus_bonus": 0.0,
+          "unsupported_risk": 1.0
+        }
+      },
+      {
+        "action": "keep as lower-priority grounded example",
+        "case_id": "L3",
+        "priority_score": 0.4325,
+        "signals": {
+          "citation_risk": 1.0,
+          "focus_bonus": 0.25,
+          "unsupported_risk": 0.0
+        }
+      },
+      {
+        "action": "keep as lower-priority grounded example",
+        "case_id": "L1",
+        "priority_score": 0.0425,
+        "signals": {
+          "citation_risk": 0.0,
+          "focus_bonus": 0.25,
+          "unsupported_risk": 0.0
+        }
+      }
+    ]
+  },
   "research_area": "NLP, language agents, knowledge bases, foundation models",
   "university": "Ohio State University",
   "value_add": "citation-faithful RAG and claim-level evaluation harness"
